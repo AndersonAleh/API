@@ -1,0 +1,22 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ExoApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Projetos": {
+      "get": {
+        "tags": [
+          "Projetos"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
